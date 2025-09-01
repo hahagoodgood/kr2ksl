@@ -1,0 +1,83 @@
+# 가상환경 (venv, .env 등)
+.venv/
+env/
+venv/
+ENV/
+*.env
+
+# Python 컴파일 결과
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+
+# 로그 파일
+*.log
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
+
+# IDE 설정 (PyCharm, VSCode 등)
+.vscode/
+.idea/
+
+# 모델 및 훈련 파일
+*.tflite
+*.h5
+*.pb
+*.pkl
+*.onnx
+*.ckpt
+checkpoint/
+saved_model/
+
+# 사용자 데이터
+*.npy
+*.csv
+*.json
+*.jsonl
+
+# 데이터셋
+KCH/signtotext/dataset/
+KCH/signtotext/2024_LI_DC_0779230-0789690_1035/
+data/
+*.zip
+
+# 결과 이미지, 영상
+output/
+results/
+*.jpg
+*.png
+*.mp4
+*.avi
+
+# 서버 배포 관련 임시파일
+__pycache__/
+*.db
+*.sqlite3
+*.pid
+*.sock
+*.gz
+*.bak
+*.tmp
+
+# FastAPI/Uvicorn
+*.log
+*.pid
+*.db
+*.sqlite3
+
+# 모델 데이터 용량이 너무 커서 ignore 합니다. 
+kobart-custom-tokenizer/
+kobart-finetuned-ksl-glosser/
+KSEB_json_data/
+ksl-tokenizer/
+preprocessed_data/
+selected_json/
+text_to_word/plots
+T2G_flask/t2g_model
+GEMINI.md
+yolov8n.pt
